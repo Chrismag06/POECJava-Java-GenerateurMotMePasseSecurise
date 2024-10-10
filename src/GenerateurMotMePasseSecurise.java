@@ -18,10 +18,7 @@ public class GenerateurMotMePasseSecurise {
 		int longueur = myObj.nextInt();
 		String motDePasse = "";
 		
-		/*
-		 * lettres majuscules lettres minuscules chiffres symboles spéciaux
-		 */
-		
+	
 	    for (int i = 33; i < 126; ++i) {
 	    	System.out.println(i + "===> " + (char)i);
 	     } 
@@ -50,7 +47,8 @@ public class GenerateurMotMePasseSecurise {
 			System.out.println("==============> " + (char)k + "  ====== " + k);
 		}
 			
-		System.out.println("Le mot de passe est " + motDePasse);	 
+		System.out.println("Le mot de passe est : " + motDePasse);	 
+		
 		myObj.close();
 	}
 
